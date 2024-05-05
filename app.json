@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Agrisales",
+    "slug": "Agrisales",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/agrisale.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#4BA26A"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.gikundiro_happy.agri"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3be6503f-c0d4-4f2b-9a44-8c0a62e11a1b"
+      }
+    }
+  }
+}
